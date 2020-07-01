@@ -5,7 +5,7 @@ app=Flask(__name__)
 
 @app.route('/newsrequst',methods=['GET'])
 def hello():
-    url='http://newsapi.org/v2/everything?q=covid&from=2020-06-30&sortBy=publishedAt&apiKey=d2c48ff2e0f54ae9b748476f9efa9161'
+    url='http:'
     response = requests.get(url)
     jsonres=response.json()
     ifresponse.status_code==)
