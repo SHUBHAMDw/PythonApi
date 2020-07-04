@@ -12,6 +12,7 @@ def hello():
     data=jsonres['articles']
     #data=data[0]
     lis=[]
+    print("Git check")
     for item in data:
         newnews={
         'author':item['author'],
